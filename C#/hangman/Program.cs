@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using static System.Random;
 using System.Text;
@@ -81,22 +81,12 @@ namespace HangmanAppTest
                 }
                 else
                 {
-                    Console.Write("  ");
+                    Console.Write("_ ");
                 }
                 counter += 1;
             }
             //Console.Write("\r\n");
             return rightLetters;
-        }
-
-        private static void printLines(String randomWord)
-        {
-            Console.Write("\r");
-            foreach (char c in randomWord)
-            {
-                Console.OutputEncoding = System.Text.Encoding.Unicode;
-                Console.Write("\u0305 ");
-            }
         }
 
         static void Main(string[] args)
@@ -135,7 +125,6 @@ namespace HangmanAppTest
                     Console.Write("\r\n You have already guessed this letter");
                     printHangman(amountOfTimesWrong);
                     currentLettersRight = printWord(currentLettersGuessed, randomWord);
-                    printLines(randomWord);
                 }
                 else
                 {
@@ -151,7 +140,6 @@ namespace HangmanAppTest
                         currentLettersGuessed.Add(letterGuessed);
                         currentLettersRight = printWord(currentLettersGuessed, randomWord);
                         Console.Write("\r\n");
-                        printLines(randomWord);
                     }
                     // User was wrong af
                     else
@@ -163,7 +151,6 @@ namespace HangmanAppTest
                         // Print word
                         currentLettersRight = printWord(currentLettersGuessed, randomWord);
                         Console.Write("\r\n");
-                        printLines(randomWord);
                     }
                 }
             }
