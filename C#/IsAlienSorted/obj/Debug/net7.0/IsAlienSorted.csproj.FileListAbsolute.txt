@@ -1,0 +1,15 @@
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\IsAlienSorted.csproj.AssemblyReference.cache
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\IsAlienSorted.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\IsAlienSorted.AssemblyInfoInputs.cache
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\IsAlienSorted.AssemblyInfo.cs
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\IsAlienSorted.csproj.CoreCompileInputs.cache
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\bin\Debug\net7.0\IsAlienSorted.exe
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\bin\Debug\net7.0\IsAlienSorted.deps.json
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\bin\Debug\net7.0\IsAlienSorted.runtimeconfig.json
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\bin\Debug\net7.0\IsAlienSorted.dll
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\bin\Debug\net7.0\IsAlienSorted.pdb
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\IsAlienSorted.dll
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\refint\IsAlienSorted.dll
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\IsAlienSorted.pdb
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\IsAlienSorted.genruntimeconfig.cache
+C:\Users\White Potato\Documents\GitHub\Leetcode-and-Testing\C#\IsAlienSorted\obj\Debug\net7.0\ref\IsAlienSorted.dll

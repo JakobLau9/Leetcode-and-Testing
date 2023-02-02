@@ -99,6 +99,7 @@ namespace HangmanAppTest
             int index = random.Next(wordDictionary.Count);
             String randomWord = wordDictionary[index];
 
+            printHangman(0);
             foreach (char x in randomWord)
             {
                 Console.Write("_ ");
@@ -130,7 +131,13 @@ namespace HangmanAppTest
                 {
                     // Check if letter is in randomWord
                     bool right = false;
-                    for (int i = 0; i < randomWord.Length; i++) { if (letterGuessed == randomWord[i]) { right = true; } }
+                    for (int i = 0; i < randomWord.Length; i++) 
+                    { 
+                        if (letterGuessed == randomWord[i]) 
+                        { 
+                            right = true; 
+                        } 
+                    }
 
                     // User is right
                     if (right)
@@ -141,7 +148,7 @@ namespace HangmanAppTest
                         currentLettersRight = printWord(currentLettersGuessed, randomWord);
                         Console.Write("\r\n");
                     }
-                    // User was wrong af
+                    // User was wrong
                     else
                     {
                         amountOfTimesWrong += 1;
@@ -154,6 +161,8 @@ namespace HangmanAppTest
                     }
                 }
             }
+
+            
             Console.WriteLine("\r\nGame is over! Thank you for playing :)");
         }
     }
